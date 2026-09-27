@@ -1,0 +1,115 @@
+body{
+    background:#f5f7fb;
+    font-family:Segoe UI,sans-serif;
+}
+
+.custom-nav{
+    background:#0f172a;
+}
+
+.hero{
+    background:linear-gradient(
+    135deg,
+    #2563eb,
+    #06b6d4
+    );
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:3rem;
+    font-weight:700;
+}
+
+.hero p{
+    font-size:1.2rem;
+    margin-top:20px;
+}
+
+.stat-card{
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.stat-card h2{
+    color:#2563eb;
+}
+
+.section-title{
+    text-align:center;
+    font-weight:700;
+    margin-bottom:30px;
+}
+
+.step-card{
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+}
+
+.step-card span{
+    width:50px;
+    height:50px;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    background:#2563eb;
+    color:white;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.features{
+    padding:70px 0;
+    background:white;
+}
+
+.feature-card{
+    background:#f8fafc;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    transition:.3s;
+}
+
+.feature-card:hover{
+    transform:translateY(-8px);
+}
+
+.faq-box{
+    max-width:800px;
+    margin:auto;
+}
+
+.faq-btn{
+    width:100%;
+    border:none;
+    background:#2563eb;
+    color:white;
+    padding:15px;
+    text-align:left;
+    margin-top:10px;
+    border-radius:10px;
+}
+
+.faq-content{
+    display:none;
+    background:white;
+    padding:15px;
+    border-radius:10px;
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
